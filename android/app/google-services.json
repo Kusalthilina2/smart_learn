@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510969647172",
+    "project_id": "smartlearn-build",
+    "storage_bucket": "smartlearn-build.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510969647172:android:8e4319215593c2361f6c11",
+        "android_client_info": {
+          "package_name": "com.example.smartlearn"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcqg5fFqZpONW5A6482xxj9SA5HT5UFWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
