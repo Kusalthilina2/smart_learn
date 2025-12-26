@@ -18,8 +18,6 @@ class FlashcardRepository {
 
   Future<List<FlashcardDeck>> fetchDecks() async {
     try {
-      // TODO: Update to use hierarchical structure with gradeId and subjectId
-      // For now, keeping the old structure for backwards compatibility
       final snapshot = await firestore
           .collection('public_flashcard_decks')
           .get();

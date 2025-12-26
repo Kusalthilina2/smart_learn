@@ -17,8 +17,6 @@ class StoryRepository {
 
   Future<List<Story>> fetchStoriesBySubject(String subjectId) async {
     try {
-      // TODO: Update to use hierarchical structure with gradeId and subjectId
-      // For now, keeping the old structure for backwards compatibility
       final snapshot = await firestore
           .collection('public_stories')
           .where('subjectId', isEqualTo: subjectId)
@@ -51,8 +49,6 @@ class StoryRepository {
     }
 
     try {
-      // TODO: Update to use hierarchical structure with gradeId and subjectId
-      // For now, keeping the old structure for backwards compatibility
       final doc = await firestore
           .doc('public_stories/$storyId')
           .get();
